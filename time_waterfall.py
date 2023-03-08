@@ -19,13 +19,17 @@ def countdown():
 
 #countdown()
 
-# getting closer, counting down but replacing instead of moving across the screen when it reaches 1
+# marches across the screen and prints the numbers like cascading water
 def countdown_repeat():
-    for _ in range(100):
+    space = 0
+    for _ in range(50):
+        space +=1
+        whitespace = space * ' '
         start = random.randint(1, 9)
         for num in range(start, 0, -1):
-            time.sleep(1)
-            print(num, end = '\r', flush=True)
-        print(' ', end = '')
+            time.sleep(0.75)
+            print(whitespace, num, end = '\n', flush=True)
+        
+            #print(whitespace, end = '')
 
 countdown_repeat()
