@@ -8,4 +8,4 @@ My code chooses the random number and counts down, never reaching zero and march
 
 What I learned:
 
-- This is an interesting piece of coding that reinforces that range produces an iterable and makes use of the print arguments.
+- This is a tiny piece of code reinforcing that range produces an iterable and makes use of the print arguments.
